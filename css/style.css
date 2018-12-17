@@ -2,3 +2,8 @@ body{
 	font-size: 18px;
 	background-color: lightblue;
 }
+#container{
+	background-color: yellow;
+	margin:10%;
+	padding: 1%;
+}
