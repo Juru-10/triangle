@@ -6,3 +6,6 @@ function myFunction()
   var msg2=" triangle.";
   var res=["EQUILATERAL","ISOSCELES","SCALENE","NOT a triangle"];
   var resp;
+  if((fv>0&&sv>0&&tv>0)&&(fv+sv>tv||sv+tv>fv||tv+fv>sv)){
+
+  }
