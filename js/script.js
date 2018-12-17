@@ -7,5 +7,13 @@ function myFunction()
   var res=["EQUILATERAL","ISOSCELES","SCALENE","NOT a triangle"];
   var resp;
   if((fv>0&&sv>0&&tv>0)&&(fv+sv>tv||sv+tv>fv||tv+fv>sv)){
-
+    if((sv==tv)&&(sv==fv)&&(fv==tv)){
+      resp = msg1+res[0]+msg2;
+    }
+    else if(fv==sv||fv==tv||sv==tv){
+      resp = msg1+res[1]+msg2;
+    }
+    else if(fv!=sv&&sv!=tv&&fv!=tv){
+      resp = msg1+res[2]+msg2;
+    }
   }
