@@ -20,3 +20,22 @@ button{
 	width: 70px;
 	height: 40px;
 }
+#type{
+  text-align: center;
+	background-color: white;
+	color: green;
+}
+@media only screen and (min-width:700px){
+	body{
+    font-size: 24px;
+	};
+	#container{
+    margin:1%;
+	}
+	#inputs{
+		margin: 5%;
+	};
+	#enter{
+		margin-top: 10%
+	}
+};
