@@ -1,4 +1,4 @@
-function myFunction()
+function myFunction(){}
   var fv=document.getElementById("fv").value;
   var sv=document.getElementById("sv").value;
   var tv=document.getElementById("tv").value;
@@ -23,3 +23,5 @@ function myFunction()
   else {
     resp ="Try again";
   }
+  document.getElementById("type").innerHTML = resp;
+}
