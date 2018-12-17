@@ -17,3 +17,9 @@ function myFunction()
       resp = msg1+res[2]+msg2;
     }
   }
+  else if(fv+sv<=tv||sv+tv<=fv||tv+fv<=sv){
+    resp =res[3];
+  }
+  else {
+    resp ="Try again";
+  }
